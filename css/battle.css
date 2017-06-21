@@ -1,0 +1,80 @@
+body {
+    margin: 20px auto 0;
+    padding-left: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+div {
+  width: 80%;
+}
+
+#landsP1 {
+  position: absolute;
+  top: 110px;
+  left: 100px;
+}
+
+#landsP2 {
+  position: absolute;
+  bottom: 110px;
+  left: 100px;
+}
+
+#creaturesP1 {
+  position: absolute;
+  top: 190px;
+  left: 100px;
+}
+
+#creaturesP2 {
+  position: absolute;
+  bottom: 190px;
+  left: 100px;
+}
+
+#cardsP1 {
+  position: absolute;
+  top: 5px;
+  left: 100px;
+}
+
+#cardsP2 {
+  position: absolute;
+  bottom: 5px;
+  left: 100px;
+}
+
+img {
+  width: 7%;
+  margin: 10px;
+}
+
+div img {
+  width: 7%;
+  margin: 10px;
+}
+
+#deckP1 {
+  position: absolute;
+  top: 25px;
+  left: 125px;
+}
+
+#deckP2 {
+  position: absolute;
+  bottom: 25px;
+  right: 170px;
+}
+
+#ajani {
+  position: absolute;
+  top: 185px;
+  left: 128px;
+}
+
+#tezzeret {
+  position: absolute;
+  bottom: 185px;
+  right: 168px;
+}

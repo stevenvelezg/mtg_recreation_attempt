@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Magic - Launch</title>
+    <link rel="stylesheet" href="css/launchPage.css">
+  </head>
+  <body>
+    <h1>Welcome to Magic! Please select a deck from the following list:</h1>
+    <nav>
+      <ol>
+        <li>Ajani (Green/White)</li>
+        <li>Chandra (Red/White)</li>
+        <li>Gideon (White/Red)</li>
+        <li>Liliana (Black/Green)</li>
+        <li>Nissa (Green/Blue)</li>
+        <li>Tezzeret (Black/Blue)</li>
+      </ol>
+    </nav>
+    <div class="colors">
+      <h3><a href="colors.html">For a brief overview of what colors do, click here!</a></h3>
+    </div>
+    <div class="rules">
+      <h3><a href="rules.html">For a look at the rules of play, click here!</a></h3>
+    </div>
+    <br>
+    <br>
+    <label>Input Player 1's Deck Number: <input type="text" id="deckSelect1"></label>
+    <br>
+    <label>Input Player 2's Deck Number: <input type="text" id="deckSelect2"></label>
+    <h3 onclick="setDeckP2()"><a href="battle.html">Load up Player decks</a></h3>
+    <script type="text/javascript" src="js/cookies.js"></script>
+    <script type="text/javascript" src="js/launchPage.js"></script>
+  </body>
+</html>

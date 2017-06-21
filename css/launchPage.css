@@ -1,0 +1,29 @@
+body {
+  margin: 20px auto 0;
+  padding-left: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+}
+
+.colors{
+  padding-right: 40px;
+}
+
+.rules {
+  padding-left: 40px;
+}
+
+nav {
+  text-align: center;
+  list-style-position: inside;
+}
+
+ol {
+  font-size: 20px;
+}
